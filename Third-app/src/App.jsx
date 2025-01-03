@@ -1,8 +1,11 @@
 
-
+import Starter from './tutorial/01-useState/starter/02-useState-basics.jsx'
 const App = () => {
   return (
-    <div>App</div>
+    <div className="container">
+      <div>Hello</div>
+      <Starter/>
+    </div>
   )
 }
 
